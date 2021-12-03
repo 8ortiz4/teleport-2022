@@ -1,0 +1,17 @@
+configuration:
+    cooldown: 10
+    keepalive: 500
+messages:
+    college: "&cWait %s s between each teleport."
+    problem: "&eThe player is offline."
+    finding: "&eYou cannot teleport to yourself."
+    setting: "&cYou must type the player's name."
+    hearing: "&c%s has rejected your request for teleportation."
+    fishing: "&eYou have rejected %s's teleportation request."
+    clothes: "&eYou have no pending teleport request, it probably expired."
+    society: "&eTraveling..."
+    airport: "&eTraveling..."
+    student: "&e%s cannot teleport to you because it is offline."
+    charity: "&aTeleportation request sent to %s."
+    physics: "&e%s wants to teleport to you. Reject it with /tpreject or accept it with /tpaccept."
+    alcohol: "&cYour teleportation request has expired."

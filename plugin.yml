@@ -1,0 +1,20 @@
+author: 8ortiz4
+commands:
+    tpa:
+        permission: teleport_2022.tpa
+    tpreject:
+        permission: teleport_2022.tpreject
+    tpaccept:
+        permission: teleport_2022.tpaccept
+main: io.github._8ortiz4.teleport_2022.Teleport2022
+name: Teleport2022
+permissions:
+    teleport_2022.tpa:
+        default: true
+    teleport_2022.tpreject:
+        default: true
+    teleport_2022.tpaccept:
+        default: true
+    teleport_2022.oridecd:
+        default: op
+version: 2.0.0
