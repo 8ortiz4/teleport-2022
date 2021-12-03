@@ -48,3 +48,7 @@ Personaliza los mensajes y sus respectivos colores a través del fichero pluyin.
 - Magenta: &d
 - Amarillo: &e
 - Blanco: &f
+
+### Idioma
+
+El idioma por defecto de los mensajes es el inglés estadounidense pero el español de España está disponible a través de [este enlace](https://github.com/8ortiz4/teleport-2022/blob/main/config-es_ES.yml).
