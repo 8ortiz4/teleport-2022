@@ -1,0 +1,17 @@
+configuration:
+    cooldown: 10
+    keepalive: 500
+messages:
+    college: "&cEspera %s s entre cada teletransporte."
+    problem: "&eEl jugador est\u00e1 desconectado."
+    finding: "&eNo puedes teletransportarte hasta ti mismo."
+    setting: "&cDebes escribir el nombre del jugador."
+    hearing: "&c%s ha rechazado tu solicitud de teletransporte."
+    fishing: "&eHas rechazado la solicitud de teletransporte de %s."
+    clothes: "&eNo tienes ninguna solicitud de teletransporte pendiente, habr\u00e1 expirado."
+    society: "&eViajando..."
+    airport: "&eViajando..."
+    student: "&e%s no puede teletransportarse hasta ti porque est\u00e1 desconectado."
+    charity: "&aSolicitud de teletransporte enviada a %s."
+    physics: "&e%s quiere teletransportarse hasta ti. Rechaza la solicitud con /tpreject o ac\u00e9ptala con /tpaccept."
+    alcohol: "&cTu solicitud de teletransporte ha expirado."
