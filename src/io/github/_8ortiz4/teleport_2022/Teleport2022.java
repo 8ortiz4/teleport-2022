@@ -9,12 +9,17 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import io.github._8ortiz4.teleport_2022.Metrics;
+
 public class Teleport2022 extends JavaPlugin {
     Map<String, String> curr = new HashMap<String, String>();
     Map<String, Long> cd = new HashMap<String, Long>();
 
+    @Override
     public void onEnable() {
         saveDefaultConfig();
+        int pluginId = 13480;
+        Metrics metrics = new Metrics(this, pluginId);
     }
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
