@@ -13,5 +13,5 @@ messages:
     airport: "&eViajando..."
     student: "&e%s n\00e3o pode se teletransportar at\u00e9 voc\u00ea porque ele est\u00e1 desconectado."
     charity: "&aPedido de teletransporte enviado a %s."
-    physics: "&e%s quer se teletransportar at\u00e9 voc\u00e. Rejeita com /tpreject ou aceita o pedido com /tpaccept."
+    physics: "&e%s quer se teletransportar at\u00e9 voc\u00ea. Rejeita com /tpreject ou aceita o pedido com /tpaccept."
     alcohol: "&cSeu pedido de teletransporte expirou."
