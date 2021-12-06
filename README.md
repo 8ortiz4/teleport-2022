@@ -51,4 +51,9 @@ Personaliza los mensajes y sus respectivos colores a través del fichero pluyin.
 
 ### Idioma
 
-El idioma por defecto de los mensajes es el inglés estadounidense pero el español de España está disponible a través de [este enlace](https://github.com/8ortiz4/teleport-2022/blob/main/config-es_ES.yml).
+El idioma por defecto de los mensajes es el inglés estadounidense. Los idiomas siguientes están ya traducidos:
+
+- [English (US)](https://github.com/8ortiz4/teleport-2022/blob/main/config.yml)
+- [Español (España)](https://github.com/8ortiz4/teleport-2022/blob/main/config-es_es.yml)
+- [Andalûh (España)](https://github.com/8ortiz4/teleport-2022/blob/main/config-esan.yml)
+- [Português (Brasil)](https://github.com/8ortiz4/teleport-2022/blob/main/config-pt_br.yml)
