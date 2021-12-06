@@ -1,0 +1,17 @@
+configuration:
+    cooldown: 10
+    keepalive: 500
+messages:
+    college: "&cArfab\u00f4h d'\u00eapper\u00e1 %s s p'borb\u00eah a biah\u00e1."
+    problem: "&eEr hugad\u00f4h \u00eatt\u00e1 d\u00eaccon\u00eattao."
+    finding: "&eNo pued\u00ea biah\u00e1 'tta ti m\u00eemmo."
+    setting: "&cEr nombre der hugad\u00f4h t\u00eaz\u00e1 \u00f4rbida\u00f4."
+    hearing: "&c%s ta rexa\u00e7a\u00f4 la \u00e7oli\u00e7it\u00fbh der biah\u00ea."
+    fishing: "&e\u00c2h rexa\u00e7a\u00f4 la \u00e7oli\u00e7it\u00fbh de teletr\u00c2pporte de %s."
+    clothes: "&eNo tien\u00ea ninguna \u00e7oli\u00e7it\u00fbh de teletr\u00c2pporte, \u00e7abr\u00e1 caduca\u00f4h."
+    society: "&eBiahand\u00f4h..."
+    airport: "&eBiahand\u00f4h..."
+    student: "&e%s no pued\u00ea teletr\u00c2pportarz\u00ea 'tta ti porque \u00eatt\u00e1 d\u00eaccon\u00eattao."
+    charity: "&a\u00e7oli\u00e7it\u00fbh de teletr\u00c2pporte embi\u00e1 pa %s."
+    physics: "&e%s qui\u00eah teletr\u00c2pportarz\u00ea 'tta ti. Rexa\u00e7a la \u00e7oli\u00e7it\u00fbh con /tpreject o a\u00e7\u00e9ttal\u00c2h con /tpaccept."
+    alcohol: "&cTu \u00e7oli\u00e7it\u00fbh de teletr\u00c2pporte ha caduca\u00f4h."
