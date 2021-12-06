@@ -39,7 +39,7 @@ Cosas a tener en cuenta:
 - Cambia el color o estilo de las palabras indicando al principio y sin espacios su código (abajo). Por ejemplo: hola (en rojo) → &chola.
 - Utiliza &r para volver al color y estilo por defecto.
 
-### Código de colores
+#### Código de colores
 
 - Negro: &0
 - Azul oscuro: &1
@@ -58,7 +58,7 @@ Cosas a tener en cuenta:
 - Amarillo: &e
 - Blanco: &f
 
-### Código de estilos
+#### Código de estilos
 
 - Ofuscado: &k
 - Negrita: &l
