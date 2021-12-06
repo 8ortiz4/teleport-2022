@@ -1,4 +1,5 @@
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/2.1.0?color=orange)
+![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/2.1.0/total?color=brightgreen)
 
 # Teleport 2022
 
