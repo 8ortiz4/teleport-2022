@@ -35,8 +35,8 @@ Personaliza los mensajes y sus respectivos colores a través del fichero pluyin.
 Cosas a tener en cuenta:
 
 - Si tu mensaje contiene acentos o caracteres especiales, reemplaza cada letra por su punto de código. Por ejemplo: á → \u00e1.
-- Colorea palabras indicando al principio y sin espacios su código de color (abajo). Por ejemplo: hola (en rojo) → &chola.
-- Utiliza &r para volver al color por defecto.
+- Cambia el color o estilo de las palabras indicando al principio y sin espacios su código (abajo). Por ejemplo: hola (en rojo) → &chola.
+- Utiliza &r para volver al color y estilo por defecto.
 
 ### Código de colores
 
@@ -57,7 +57,7 @@ Cosas a tener en cuenta:
 - Amarillo: &e
 - Blanco: &f
 
-### Estilo
+### Código de estilos
 
 - Ofuscado: &k
 - Negrita: &l
