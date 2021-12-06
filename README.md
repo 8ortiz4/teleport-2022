@@ -30,6 +30,14 @@ Acepta una solicitud de teletransporte.
 
 Personaliza los mensajes y sus respectivos colores a través del fichero pluyin.yml.
 
+### Personalizado
+
+Cosas a tener en cuenta:
+
+- Si tu mensaje contiene acentos o caracteres especiales, reemplaza cada letra por su punto de código. Por ejemplo: á → \u00e1.
+- Colorea palabras indicando al principio y sin espacios su código de color (abajo). Por ejemplo: hola (en rojo) → &chola.
+- Utiliza &r para volver al color por defecto.
+
 ### Código de colores
 
 - Negro: &0
@@ -48,6 +56,15 @@ Personaliza los mensajes y sus respectivos colores a través del fichero pluyin.
 - Magenta: &d
 - Amarillo: &e
 - Blanco: &f
+
+### Estilo
+
+- Ofuscado: &k
+- Negrita: &l
+- Tachado: &m
+- Subrayado: &n
+- Cursiva: &o
+- Reset: &r
 
 ### Idioma
 
