@@ -57,3 +57,7 @@ El idioma por defecto de los mensajes es el inglés estadounidense. Los idiomas 
 - [Español (España)](https://github.com/8ortiz4/teleport-2022/blob/main/lang/es_es.yml)
 - [Andalûh (España)](https://github.com/8ortiz4/teleport-2022/blob/main/lang/esan.yml)
 - [Português (Brasil)](https://github.com/8ortiz4/teleport-2022/blob/main/lang/pt_br.yml)
+
+## Comentarios destacables
+
+> Aunque una versión dada de Teleport 2022 puede funcionar en una versión de Minecraft superior a la pensada para ser utilizado Teleport 2022, es recomendable actualizar Teleport 2022 cuando coincida con la versión de Minecraft del servidor.
