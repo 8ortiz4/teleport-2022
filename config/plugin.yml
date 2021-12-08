@@ -15,4 +15,4 @@ permissions:
         default: true
     teleport_2022.tpaccept:
         default: true
-version: 2.2.0
+version: 2.2.0-alpha
