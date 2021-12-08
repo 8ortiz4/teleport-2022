@@ -31,16 +31,14 @@ public class Teleport2022 extends JavaPlugin {
 
         if(cmd.getName().equalsIgnoreCase("tpa")) {
             if(!(p == null)) {
-                if(p.hasPermission("teleport_2022.oridecd")) {} else {
-                    int cooldown = getConfig().getInt("configuration.cooldown");
+                int cooldown = getConfig().getInt("configuration.cooldown");
 
-                    if(cd.containsKey(p.getName())) {
-                        long diff = (System.currentTimeMillis() - cd.get(sender.getName())) / 1000;
+                if(cd.containsKey(p.getName())) {
+                    long diff = (System.currentTimeMillis() - cd.get(sender.getName())) / 1000;
 
-                        if(diff < cooldown) {
-                            p.sendMessage(String.format(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.college")), cooldown));
-                            return false;
-                        }
+                    if(diff < cooldown) {
+                        p.sendMessage(String.format(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.college")), cooldown));
+                        return false;
                     }
                 }
 
