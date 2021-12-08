@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Sound;
+import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -127,8 +129,10 @@ public class Teleport2022 extends JavaPlugin {
 
     public void send(Player sender, Player recipient) {
         sender.sendMessage(String.format(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.charity")), recipient.getName()));
+        World w = recipient.getWorld();
 
         if(recipient.hasPermission("teleport_2022.tpreject") && recipient.hasPermission("teleport_2022.tpaccept")) {
+            w.playSound(recipient.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 10, 1);
             recipient.sendMessage(String.format(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.physics")), sender.getName()));
             curr.put(recipient.getName(), sender.getName());
         }
