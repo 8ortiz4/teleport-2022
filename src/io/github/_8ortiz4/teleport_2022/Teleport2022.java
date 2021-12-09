@@ -132,7 +132,7 @@ public class Teleport2022 extends JavaPlugin {
         World w = recipient.getWorld();
 
         if(recipient.hasPermission("teleport_2022.tpreject") && recipient.hasPermission("teleport_2022.tpaccept")) {
-            w.playSound(recipient.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 10, 1);
+            w.playSound(recipient.getLocation(), Sound.valueOf(getConfig().getString("sounds.request")), 10, 1);
             recipient.sendMessage(String.format(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.physics")), sender.getName()));
             curr.put(recipient.getName(), sender.getName());
         }
