@@ -1,6 +1,4 @@
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/3.0.0-alpha?color=orange)
-![GitHub last commit](https://img.shields.io/github/last-commit/8ortiz4/teleport-2022)
-![GitHub Release Date](https://img.shields.io/github/release-date/8ortiz4/teleport-2022)
 ![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/3.0.0-alpha/total?color=brightgreen)
 
 # Teleport 2022
@@ -10,6 +8,8 @@ Disclaimer: Teleport 2022 empezó en 2021 como un proyecto pequeño por el cual,
 ## Última versión estable
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/2.2.0?color=orange)
+![GitHub last commit](https://img.shields.io/github/last-commit/8ortiz4/teleport-2022)
+![GitHub Release Date](https://img.shields.io/github/release-date/8ortiz4/teleport-2022)
 ![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/2.2.0/total?color=brightgreen)
 
 ### Recordatorio importante
