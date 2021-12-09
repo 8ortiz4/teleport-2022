@@ -1,6 +1,6 @@
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/3.0.0-alpha?color=orange)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/3.0.0-beta?color=orange)
 ![GitHub last commit](https://img.shields.io/github/last-commit/8ortiz4/teleport-2022)
-![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/3.0.0-alpha/total?color=brightgreen)
+![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/3.0.0-beta/total?color=brightgreen)
 
 # Teleport 2022
 
