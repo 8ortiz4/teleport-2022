@@ -15,3 +15,5 @@ messages:
     charity: "&aPedido de teletransporte enviado a %s."
     physics: "&e%s quer se teletransportar at\u00e9 voc\u00ea. Rejeita com /tpreject ou aceita o pedido com /tpaccept."
     alcohol: "&cSeu pedido de teletransporte expirou."
+sounds:
+    request: "ENTITY_ENDER_EYE_LAUNCH"
