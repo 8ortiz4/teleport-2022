@@ -15,5 +15,10 @@ messages:
     charity: "&aTeleportation request sent to %s."
     physics: "&e%s wants to teleport to you. Reject it with /tpreject or accept it with /tpaccept."
     alcohol: "&cYour teleportation request has expired."
-sounds:
-    request: "ENTITY_ENDER_EYE_LAUNCH"
+sound:
+    enabled: true
+    effect: "ENTITY_ENDER_EYE_LAUNCH"
+caption:
+    enabled: true
+    title: "&aTeleport request"
+    subtitle: "&eA player wants to teleport to you."
