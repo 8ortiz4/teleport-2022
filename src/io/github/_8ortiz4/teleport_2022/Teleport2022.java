@@ -132,7 +132,14 @@ public class Teleport2022 extends JavaPlugin {
         World w = recipient.getWorld();
 
         if(recipient.hasPermission("teleport_2022.tpreject") && recipient.hasPermission("teleport_2022.tpaccept")) {
-            w.playSound(recipient.getLocation(), Sound.valueOf(getConfig().getString("sounds.request")), 10, 1);
+            if(getConfig().getBoolean("sound.enabled") == true) {
+                w.playSound(recipient.getLocation(), Sound.valueOf(getConfig().getString("sound.effect")), 10, 1);
+            }
+
+            if(getConfig().getBoolean("caption.enabled") == true) {
+                recipient.sendTitle(ChatColor.translateAlternateColorCodes('&', getConfig().getString("caption.title")), ChatColor.translateAlternateColorCodes('&', getConfig().getString("caption.subtitle")), 10, 70, 20);
+            }
+
             recipient.sendMessage(String.format(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.physics")), sender.getName()));
             curr.put(recipient.getName(), sender.getName());
         }
