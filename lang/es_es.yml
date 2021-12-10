@@ -15,5 +15,10 @@ messages:
     charity: "&aSolicitud de teletransporte enviada a %s."
     physics: "&e%s quiere teletransportarse hasta ti. Rechaza la solicitud con /tpreject o ac\u00e9ptala con /tpaccept."
     alcohol: "&cTu solicitud de teletransporte ha expirado."
-sounds:
-    request: "ENTITY_ENDER_EYE_LAUNCH"
+sound:
+    enabled: true
+    effect: "ENTITY_ENDER_EYE_LAUNCH"
+caption:
+    enabled: true
+    title: "&aSolicitud de teletransporte"
+    subtitle: "&eUn jugador quiere teletransportarse hasta ti."
