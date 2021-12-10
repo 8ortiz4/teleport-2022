@@ -4,9 +4,9 @@
 
 ##### Última versión (pre-release)
 
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/3.0.0-beta?color=orange)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/3.0.0-gamma?color=orange)
 ![GitHub last commit](https://img.shields.io/github/last-commit/8ortiz4/teleport-2022)
-![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/3.0.0-beta/total?color=brightgreen)
+![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/3.0.0-gamma/total?color=brightgreen)
 
 # Teleport 2022
 
@@ -87,7 +87,11 @@ Cosas a tener en cuenta:
 
 #### Aviso sonoro
 
-Los sonidos a elegir están disponibles [aquí](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html).
+Los sonidos a elegir están disponibles [aquí](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html). Puedes deshabilitar o habilitar esta funcionalidad desde el fichero [config.yml](https://github.com/8ortiz4/teleport-2022/tree/main/lang).
+
+#### Subtítulos
+
+Aparte del aviso sonoro, puedes elegir si mostrar o no un aviso en pantalla cuando recibas una solicitud de teletransporte. Esto es completamente opcional.
 
 ### Idioma
 
