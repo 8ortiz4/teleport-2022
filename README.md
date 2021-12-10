@@ -40,7 +40,7 @@ Acepta una solicitud de teletransporte.
 
 ## Personalizado e idioma
 
-Personaliza los mensajes y sus respectivos colores a través del fichero pluyin.yml.
+Personaliza los mensajes y sus respectivos colores a través del fichero [config.yml](https://github.com/8ortiz4/teleport-2022/tree/main/lang).
 
 ### Personalizado
 
@@ -49,6 +49,7 @@ Cosas a tener en cuenta:
 - Si tu mensaje contiene acentos o caracteres especiales, reemplaza cada letra por su punto de código. Por ejemplo: á → \u00e1.
 - Cambia el color o estilo de las palabras indicando al principio y sin espacios su código (abajo). Por ejemplo: hola (en rojo) → &chola.
 - Utiliza &r para volver al color y estilo por defecto.
+- Cambia el sonido del aviso sonoro sustituyendo el de por defecto por el de tu elección (abajo).
 
 #### Código de colores
 
@@ -77,6 +78,10 @@ Cosas a tener en cuenta:
 - Subrayado: &n
 - Cursiva: &o
 - Reset: &r
+
+#### Aviso sonoro
+
+Los sonidos a elegir están disponibles [aquí](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html).
 
 ### Idioma
 
