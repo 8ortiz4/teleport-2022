@@ -2,21 +2,15 @@
 
 ![GitHub all releases](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/total?color=yellow)
 
-##### Última versión (pre-release)
-
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/3.0.0-gamma?color=orange)
-![GitHub last commit](https://img.shields.io/github/last-commit/8ortiz4/teleport-2022)
-![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/3.0.0-gamma/total?color=brightgreen)
-
 # Teleport 2022
 
 Disclaimer: Teleport 2022 empezó en 2021 como un proyecto pequeño por el cual, utilizaría con fines personales. Sin embargo, me di cuenta de que los plugins de Minecraft basados en Spigot con la funcionalidad del teletransporte, estaban desfasados u obsoletos. Decidí entonces crear Teleport 2022, un punto y aparte en relación a plugins de teletransporte.
 
 ## Última versión estable
 
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/2.2.0?color=orange)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/8ortiz4/teleport-2022/3.0.0?color=orange)
 ![GitHub Release Date](https://img.shields.io/github/release-date/8ortiz4/teleport-2022)
-![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/2.2.0/total?color=brightgreen)
+![GitHub release (by tag)](https://img.shields.io/github/downloads/8ortiz4/teleport-2022/3.0.0/total?color=brightgreen)
 
 ### Recordatorio importante
 
@@ -30,6 +24,7 @@ Los comandos son los siguientes:
 tpa
 tpreject
 tpaccept
+tpreload
 ```
 
 ### tpa
@@ -43,6 +38,10 @@ Rechaza una solicitud de teletransporte.
 ### tpaccept
 
 Acepta una solicitud de teletransporte.
+
+### tpreload
+
+Reinicia Teleport 2022 sin tener que reiniciar completamente el servidor.
 
 ## Personalizado e idioma
 
