@@ -3,12 +3,14 @@ package io.github._8ortiz4.teleport_2022;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import io.github._8ortiz4.teleport_2022.Metrics;
@@ -117,6 +119,18 @@ public class Teleport2022 extends JavaPlugin {
                     p.sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.clothes")));
                     return false;
                 }
+            } else {
+                return false;
+            }
+
+            return true;
+        }
+
+        if(cmd.getName().equalsIgnoreCase("tpreload")) {
+            if(!(p == null)) {
+                Plugin plugin = Bukkit.getServer().getPluginManager().getPlugin("Teleport2022");
+                plugin.reloadConfig();
+                p.sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.ability")));
             } else {
                 return false;
             }
