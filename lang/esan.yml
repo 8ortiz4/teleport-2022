@@ -15,6 +15,7 @@ messages:
     charity: "&a\u00e7oli\u00e7it\u00fbh de teletr\u00c2pporte embi\u00e1 pa %s."
     physics: "&e%s qui\u00eah teletr\u00c2pportarz\u00ea 'tta ti. Rexa\u00e7a la \u00e7oli\u00e7it\u00fbh con /tpreject o a\u00e7\u00e9ttal\u00c2h con /tpaccept."
     alcohol: "&cTu \u00e7oli\u00e7it\u00fbh de teletr\u00c2pporte ha caduca\u00f4h."
+    ability: "&aTeleport 2022 ze ha reinicia\u00f4h hatifat\u00f4riamehte."
 sound:
     enabled: true
     effect: "ENTITY_ENDER_EYE_LAUNCH"
