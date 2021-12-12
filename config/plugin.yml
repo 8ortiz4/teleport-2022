@@ -6,6 +6,8 @@ commands:
         permission: teleport_2022.tpreject
     tpaccept:
         permission: teleport_2022.tpaccept
+    tpreload:
+        permission: teleport_2022.tpreload
 main: io.github._8ortiz4.teleport_2022.Teleport2022
 name: Teleport2022
 permissions:
@@ -15,4 +17,6 @@ permissions:
         default: true
     teleport_2022.tpaccept:
         default: true
-version: 3.0.0-gamma
+    teleport_2022.tpreload:
+        default: op
+version: 3.0.0
